@@ -1,0 +1,41 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week6</title>
+    <h1>PHP STUDENTS</h1>
+    <style>
+        body {
+            text-align: center; /* Center align the content horizontally */
+        }
+        .container {
+            margin: 0 auto; /* Center the container horizontally */
+            width: 50%; /* Adjust the width of the container as needed */
+            max-width: 600px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<form action="Action.php" method="post">
+    <div class="container">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" placeholder="Enter your age" required>
+        <br><br>
+        <label for="additionalInfo">Additional Information:</label>
+        <input type="text" id="additionalInfo" name="additionalInfo" placeholder="Enter any additional information" required>
+        <br><br>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+</body>
+</html>
